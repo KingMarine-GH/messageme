@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "cd website && yarn && cd ../server && yarn",
-    "build": "cd website && rollup -c && cd .. && ./copy.sh",
+    "build": "./build.sh",
     "dev": "cd website && rollup -c -w",
     "start": "cd website && sirv public --no-clear",
     "check": "cd website && svelte-check --tsconfig website/tsconfig.json"
