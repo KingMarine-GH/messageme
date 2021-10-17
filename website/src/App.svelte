@@ -1,10 +1,22 @@
 <script lang=ts>
+	import { Container, Row, Col } from "sveltestrap";
 
+	let user = true;
 </script>
 
-<app>
+{#if user}
+<!-- logged in -->
+<Container>
+	<Row>
 
-</app>
+	</Row>
+	<Row>
+		
+	</Row>
+</Container>
+{:else}
+<!-- not logged in -->
+{/if}
 
 <style lang=scss>
 
