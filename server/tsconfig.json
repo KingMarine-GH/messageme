@@ -4,11 +4,5 @@
         "sourceMap": true,
         "rootDir": "src",
         "declaration": true,
-        "declarationDir": "./types",
-        "declarationMap": true,
-        "typeRoots": [
-            "./types",
-            "../node_modules/@types"
-        ]
     }
 }
