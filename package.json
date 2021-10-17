@@ -1,0 +1,20 @@
+{
+  "name": "chatme",
+  "version": "1.0.0",
+  "description": "Full Stack Chat App. Part of my 100DaysOfCode",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd front && yarn && cd ../back && yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingMarine-GH/chatme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingMarine-GH/chatme/issues"
+  },
+  "homepage": "https://github.com/KingMarine-GH/chatme#readme"
+}
