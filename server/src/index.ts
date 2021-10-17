@@ -16,5 +16,5 @@ import * as ws from "ws";
 export const server = new ws.Server({ port: <number> <unknown> process.env.WS_PORT });
 
 server.once("listening", () => {
-    console.log("WebSocket server online in port " + process.env.WS_PORT)
-})
+    console.log("WebSocket server online in port " + process.env.WS_PORT);
+});
