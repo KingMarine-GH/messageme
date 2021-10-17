@@ -9,7 +9,8 @@
     "dev": "cd website && rollup -c -w",
     "start": "cd website && sirv public --no-clear",
     "check": "cd website && svelte-check --tsconfig website/tsconfig.json",
-    "host": "./build.sh && node server/build/index.js"
+    "host": "./build.sh && node server/build/index.js",
+    "ts": "cd server && rm -r build && tsc"
   },
   "repository": {
     "type": "git",
