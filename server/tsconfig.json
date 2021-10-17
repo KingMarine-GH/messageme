@@ -5,6 +5,10 @@
         "rootDir": "src",
         "declaration": true,
         "declarationDir": "./types",
-        "declarationMap": true
+        "declarationMap": true,
+        "typeRoots": [
+            "./types",
+            "../node_modules/@types"
+        ]
     }
 }
