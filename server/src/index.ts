@@ -9,7 +9,7 @@ export const app = express();
 app.listen(<number> <unknown> process.env.EXPRESS_PORT);
 
 app.get("/", (req, res) => {
-    res.sendFile("/website/public/index.html", {root: "."});
+    res.sendFile("/website/public/index.html", {root: "../.."});
 });
 
 import * as ws from "ws";
