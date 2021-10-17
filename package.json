@@ -4,7 +4,7 @@
   "description": "Full Stack Chat App. Part of my 100DaysOfCode",
   "main": "index.js",
   "scripts": {
-    "setup": "cd front && yarn && cd ../back && yarn"
+    "setup": "cd website && yarn && cd ../server && yarn"
   },
   "repository": {
     "type": "git",
